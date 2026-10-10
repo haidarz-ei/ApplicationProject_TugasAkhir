@@ -1,0 +1,14 @@
+# Ignore large data files but keep the directories structure
+raw-data/*
+!raw-data/.gitkeep
+output/*
+!output/.gitkeep
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
